@@ -22,4 +22,22 @@ Table:
 |birthdate       |DATE          |The customer's date of birth formatted as 'YYYY-MM-DD' (e.g 1980-12-25).                    |
 |create_date     |DATE          |The date and time when the customer record was created in the system.                       |
 
+2. gold.dim_products.
+
+Purpose: Provides information about the products and their attributes.
+
+Columns:
+|Column_name     |Data_type     |Description                                                                                 |
+|----------------|--------------|--------------------------------------------------------------------------------------------|
+|product_key     |INT           |Surrogate key that uniquely identifies each product record in the product dimension table.  |
+|product_key     |INT           |uniquw numerical identifier assigned to the product for tracking and referencing.           |
+|product_number  |NVARCHAR      |A structured alphanumeric identifier code representing the product, often used for categorization or inventory|
+|product_name    |NVARCHAR(50)  |Descriptive name for the product including key details such as type, color, and size.       |
+|category_id     |NVARCHAR(50)  |A unique identifier for the product's category, linking it to its high-level classification |
+|category        |NVARCHAR(50)  |The broader classification of the product(e.g. Bikes, componets) to group related items.    |
+|subcategory     |NVARCHAR(50)  |A more detailed classification of the product within the category, such as product type.    |
+|maintenance     |NVARCHAR(50)  |Shows whether the product requires to be maintained or not(e.g. 'Yes', or 'No')             |
+|cost            |INT           |The price of the product measured in monetery units.                                        |
+|product_line    |NVARCHAR(50)  |The specific product line or series to which the product belongs (e.g. 'Road', 'Mountained')|
+|start_date      |DATE          |The date when the product became available for sale or in stock                             |
 
