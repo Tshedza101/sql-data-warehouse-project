@@ -9,6 +9,7 @@ It contains dimension tables and fact tables for specific business metrics.
 - Purpose: It is used to store customer detailes filled with demographic and geographical data.
 
 - Columns:
+
 |Column_name     |Data_type     |Description                                                                                 |
 |----------------|--------------|--------------------------------------------------------------------------------------------|
 |customer_key    |INT           |Surrogate key that uniquely identifies each customer record in the dimension table          |
@@ -27,6 +28,7 @@ It contains dimension tables and fact tables for specific business metrics.
 - Purpose: Provides information about the products and their attributes.
 
 - Columns:
+  
 |Column_name     |Data_type     |Description                                                                                 |
 |----------------|--------------|--------------------------------------------------------------------------------------------|
 |product_key     |INT           |Surrogate key that uniquely identifies each product record in the product dimension table.  |
