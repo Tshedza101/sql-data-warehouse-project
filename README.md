@@ -13,7 +13,7 @@ This project involves:
 3. **Data Modeling**: Developing Fact and Dimension tables optimized for analytical queries.
 4. **Analytics and Reporting**: Creating SQL-based reports and dashboards for actionable insights.
 
-This project is an excelent resource to learn:
+In this project i got to learn:
 - SQL development
 - Data Architect
 - Data engineering
