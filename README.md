@@ -14,10 +14,10 @@ This project involves:
 4. **Analytics and Reporting**: Creating SQL-based reports and dashboards for actionable insights.
 
 This project is an excelent resource to learn:
-                                             - SQL development
-                                             - Data Architect
-                                             - Data engineering
-                                             - ETL pipeline development
+- SQL development
+- Data Architect
+- Data engineering
+- ETL pipeline development
                                              
 ---
 ## Project Requirements
