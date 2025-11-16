@@ -18,6 +18,10 @@ In this project i got to learn:
 - Data Architect
 - Data engineering
 - ETL pipeline development
+- Data Modeling
+- Data Analytics
+
+  
                                              
 ---
 ## Project Requirements
@@ -46,6 +50,15 @@ To develop a modern data warehouse using SQL server to consolidate sales data, e
   - **Sales Trends**
 
   These insights empower stakeholders with key business metrics, ebabling strategic decision-making.
+
+  ## Data Architecture
+  The data architecture for this project follows a Medallion Architecture BRONZE, SILVER and GOLD Layers.
+
+  <img width="991" height="725" alt="Data_Architecture" src="https://github.com/user-attachments/assets/69fdc8f8-56c9-456e-81a5-ea902c65e8be" />
+1. Bronze Layer: Stored raw data as-is from the source systems. Data is ingested from CSV files into SQL Server.
+2. Silver Layer: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
+3. Gold Layer: Contains business-ready data modeled into a Star-Schema required for reporting and analytics.
+==============================================================================================================================
 
   ## About Me
   Hi there! I'm bright Makwarela, i'm a Computer Science and Mathematics graduate from the University of Venda. I am passionate about data engineering and analytics.
