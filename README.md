@@ -18,6 +18,7 @@ This project is an excelent resource to learn:
                                              - Data Architect
                                              - Data engineering
                                              - ETL pipeline development
+                                             
 ---
 ## Project Requirements
 
